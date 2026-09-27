@@ -1,0 +1,10 @@
+# Goal
+int32 grid_id
+int32 bin_id
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string state
