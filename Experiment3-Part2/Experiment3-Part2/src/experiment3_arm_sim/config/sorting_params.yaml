@@ -1,0 +1,37 @@
+lws_transfer_node:
+  ros__parameters:
+    use_sim_time: true
+
+    # mechArm base position in Gazebo world
+    base_pose_xyz: [0.0, 0.0, 0.75]
+
+    # Experiment 3 final 2x3 pickup layout
+    # Top row: Square objects
+    grid1_position: [0.10,  0.06, 0.795]
+    grid2_position: [0.10,  0.00, 0.795]
+    grid3_position: [0.10, -0.06, 0.795]
+
+    # Bottom row: Circle objects
+    grid4_position: [0.16,  0.06, 0.770]
+    grid5_position: [0.16,  0.00, 0.770]
+    grid6_position: [0.16, -0.06, 0.770]
+
+    # Classification bins
+    square_bin_position: [0.06,  0.13, 0.770]
+    circle_bin_position: [0.06, -0.13, 0.770]
+
+    # Reuse verified Experiment 2 motion parameters
+    safe_height: 0.080
+    station_a_offset: 0.020
+    tool_tip_offset: 0.063
+
+    gripper_open: 0.0
+    gripper_close: -0.44
+
+    arm_move_time: 4.0
+    gripper_move_time: 1.2
+
+    placement_tolerance: 0.03
+
+    sim_attach: false
+    sim_check: true
