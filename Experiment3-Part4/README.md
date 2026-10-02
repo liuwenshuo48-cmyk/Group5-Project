@@ -1,6 +1,4 @@
-
-
-\# Experiment 2 · Part 2 — Task‑Control \& Real‑Robot Execution
+🤖 Experiment 3 · Part 4 
 
 Desktop Object Classification \& Sorting · mechArm Real‑Robot Control Module
 
